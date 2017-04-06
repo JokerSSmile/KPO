@@ -6,8 +6,10 @@ int main()
 	try
 	{
 		LongLongLong a("2222235");
+		std::cout << a.NumberLength() << std::endl;
 		LongLongLong b("22222222222222222222222222245");
-		std::cout << (a - b) << std::endl;
+		std::cout << b.NumberLength() << std::endl;
+		std::cout << (b * a) << std::endl;
 	}
 	catch (const std::exception& ex)
 	{
