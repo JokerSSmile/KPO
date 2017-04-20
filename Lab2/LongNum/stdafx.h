@@ -9,10 +9,8 @@
 
 #include <stdio.h>
 #include <tchar.h>
-#include <string>
 #include <vector>
-#include <algorithm>
 #include <iostream>
-
+#include <algorithm> 
 
 // TODO: Установите здесь ссылки на дополнительные заголовки, требующиеся для программы
