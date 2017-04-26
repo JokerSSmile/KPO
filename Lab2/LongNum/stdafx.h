@@ -12,5 +12,10 @@
 #include <vector>
 #include <iostream>
 #include <algorithm> 
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <iterator>
+#include <algorithm>
 
 // TODO: Установите здесь ссылки на дополнительные заголовки, требующиеся для программы
