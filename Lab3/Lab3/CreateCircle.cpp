@@ -15,4 +15,3 @@ std::unique_ptr<IShape> CCreateCircle::CreateShape(const std::vector<int>& param
 CCreateCircle::CCreateCircle() {}
 
 CCreateCircle::~CCreateCircle() {}
-

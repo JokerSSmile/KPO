@@ -1,7 +1,6 @@
 #pragma once
 #include "ShapeCreator.h"
 #include "Circle.h"
-#include "CreatePoint.h"
 
 class CCreateCircle : public CShapeCreator
 {

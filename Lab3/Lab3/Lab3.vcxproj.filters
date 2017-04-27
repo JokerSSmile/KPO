@@ -63,12 +63,6 @@
     <ClInclude Include="CreateRectangle.h">
       <Filter>Заголовочные файлы\Creators</Filter>
     </ClInclude>
-    <ClInclude Include="CreatePoint.h">
-      <Filter>Заголовочные файлы\Creators</Filter>
-    </ClInclude>
-    <ClInclude Include="CreateLineSegment.h">
-      <Filter>Заголовочные файлы\Creators</Filter>
-    </ClInclude>
     <ClInclude Include="CreateCircle.h">
       <Filter>Заголовочные файлы\Creators</Filter>
     </ClInclude>
@@ -99,12 +93,6 @@
       <Filter>Файлы исходного кода\Shapes</Filter>
     </ClCompile>
     <ClCompile Include="CreateCircle.cpp">
-      <Filter>Файлы исходного кода\Creators</Filter>
-    </ClCompile>
-    <ClCompile Include="CreateLineSegment.cpp">
-      <Filter>Файлы исходного кода\Creators</Filter>
-    </ClCompile>
-    <ClCompile Include="CreatePoint.cpp">
       <Filter>Файлы исходного кода\Creators</Filter>
     </ClCompile>
     <ClCompile Include="CreateRectangle.cpp">

@@ -143,8 +143,6 @@
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="CreateCircle.h" />
-    <ClInclude Include="CreateLineSegment.h" />
-    <ClInclude Include="CreatePoint.h" />
     <ClInclude Include="CreateRectangle.h" />
     <ClInclude Include="CreateTriangle.h" />
     <ClInclude Include="ShapePerformer.h" />
@@ -160,8 +158,6 @@
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="CreateCircle.cpp" />
-    <ClCompile Include="CreateLineSegment.cpp" />
-    <ClCompile Include="CreatePoint.cpp" />
     <ClCompile Include="CreateRectangle.cpp" />
     <ClCompile Include="CreateTriangle.cpp" />
     <ClCompile Include="ShapePerformer.cpp" />
