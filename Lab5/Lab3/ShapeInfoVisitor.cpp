@@ -1,5 +1,8 @@
 #include "stdafx.h"
-#include "ShapeInfoVisitor.h"
+#include "Shape.h"
+#include "Circle.h"
+#include "Triangle.h"
+#include "Reactangle.h"
 
 void ShapeInfoVisitor::Visit(CCircle* circle)
 {
@@ -14,4 +17,14 @@ void ShapeInfoVisitor::Visit(CRectangle* rectangle)
 void ShapeInfoVisitor::Visit(CTriangle* triangle)
 {
 	std::cout << "TRIANGLE: S=" << triangle->GetArea() << " P=" << triangle->GetPerimeter() << std::endl;
+}
+
+void ShapeInfoVisitor::Visit(CPoint* point)
+{
+	std::cout << "Point" << std::endl;
+}
+
+void ShapeInfoVisitor::Visit(CLineSegment* point)
+{
+	std::cout << "Line" << std::endl;
 }

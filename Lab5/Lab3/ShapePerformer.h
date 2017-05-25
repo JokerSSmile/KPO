@@ -7,7 +7,6 @@
 #include "CreateCircle.h"
 #include "CreateRectangle.h"
 #include "CreateTriangle.h"
-#include "ShapeInfoVisitor.h"
 
 class ShapePerformer
 {

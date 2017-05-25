@@ -16,3 +16,8 @@ LongLongLong CLineSegment::GetPerimeter() const
 {
 	return Sqrt(Pow((m_p1.GetX() - m_p2.GetX()), 2) + Pow((m_p1.GetY() - m_p2.GetY()), 2));
 }
+
+void CLineSegment::Accept(CVisitor& visitor)
+{
+	visitor.Visit(this);
+}

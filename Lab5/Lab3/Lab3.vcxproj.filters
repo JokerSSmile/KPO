@@ -78,12 +78,6 @@
     <ClInclude Include="LongLongLong.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="Visitor.h">
-      <Filter>Заголовочные файлы\Visitors</Filter>
-    </ClInclude>
-    <ClInclude Include="ShapeInfoVisitor.h">
-      <Filter>Заголовочные файлы\Visitors</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -122,8 +116,11 @@
     <ClCompile Include="LongLongLong.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Файлы исходного кода\Shapes</Filter>
+    </ClCompile>
     <ClCompile Include="ShapeInfoVisitor.cpp">
-      <Filter>Файлы исходного кода\Visitors</Filter>
+      <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

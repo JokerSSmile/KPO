@@ -1,6 +1,5 @@
 #pragma once
 #include "Shape.h"
-#include "Visitor.h"
 
 class CPoint : public IShape
 {

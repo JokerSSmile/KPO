@@ -13,7 +13,12 @@ LongLongLong CTriangle::GetArea() const
 	LongLongLong q = GetPerimeter();
 	LongLongLong w = LongLongLong("2");
 	LongLongLong p = q / w;
-	return Sqrt(p * (p - m_side1.GetPerimeter()) * (p - m_side2.GetPerimeter()) * (p - m_side3.GetPerimeter()));
+	auto p1 = m_side1.GetPerimeter();
+	auto a = p - p1;
+	auto b = p - m_side2.GetPerimeter();
+	auto c = p - m_side3.GetPerimeter();
+	auto d = p * (a)* (b)* (c);
+	return Sqrt(d);
 }
 
 LongLongLong CTriangle::GetPerimeter() const

@@ -2,7 +2,7 @@
 #include "Point.h"
 #include "Shape.h"
 #include "LineSegment.h"
-#include "Visitor.h"
+
 
 class CTriangle : public IShape
 {

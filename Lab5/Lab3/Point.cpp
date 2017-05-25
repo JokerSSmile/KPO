@@ -26,3 +26,8 @@ LongLongLong CPoint::GetArea() const
 {
 	return LongLongLong("0");
 }
+
+void CPoint::Accept(CVisitor& visitor)
+{
+	visitor.Visit(this);
+}

@@ -38,6 +38,17 @@ LongLongLong::LongLongLong(const std::vector<int>& numberVec)
 	}
 }
 
+LongLongLong DivideByTwo(const LongLongLong & left)
+{
+	std::vector<int> result;
+	for (int i = left.GetSize() - 1; i >= 0; i--)
+	{
+		result.push_back(int(left.GetDigit(i) / 2));
+	}
+	std::reverse(result.begin(), result.end());
+	return LongLongLong(result);
+}
+
 void LongLongLong::SetSign(bool minus)
 {
 	m_isMinus = minus;
@@ -273,7 +284,7 @@ LongLongLong const operator-(const LongLongLong& left, const LongLongLong& right
 		}
 		else
 		{
-			while (result[localCountA] == 0)
+			while (localCountA > 0 && result[localCountA] == 0)
 			{
 				--localCountA;
 			}
@@ -392,7 +403,7 @@ LongLongLong const operator/(const LongLongLong& left, const LongLongLong& right
 		}
 
 		LongLongLong resDiv = longMod / right;
-		if (resDiv.GetDigit(0) != 0)
+		if (resDiv.GetSize() > 0 && resDiv.GetDigit(0) != 0)
 		{
 			for (int i = 0; i < resDiv.GetSize(); i++)
 			{

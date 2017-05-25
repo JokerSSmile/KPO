@@ -38,3 +38,4 @@ std::ostream& operator<<(std::ostream& os, const LongLongLong& number);
 LongLongLong Abs(const LongLongLong& left);
 LongLongLong Pow(const LongLongLong& left, int right);
 LongLongLong Sqrt(const LongLongLong& left);
+LongLongLong DivideByTwo(const LongLongLong& left);
